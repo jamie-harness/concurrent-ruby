@@ -34,3 +34,5 @@ group :coverage, optional: !ENV['COVERAGE'] do
   gem 'simplecov', '~> 0.16.0', require: false
   gem 'coveralls', '~> 0.8.2', require: false
 end
+
+gem 'rspec_junit_formatter'
